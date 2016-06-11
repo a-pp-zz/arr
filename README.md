@@ -2,7 +2,7 @@
 
 Simple and safest way to get values from arrays.
 
-
+Example:
 ```
 #!php
 
