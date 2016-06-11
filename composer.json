@@ -1,0 +1,25 @@
+{
+    "name": "appzz/arr",
+    "description": "A safe way to get values from arrays",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": [
+        "arr",
+        "array"
+    ],
+    "homepage": "https://www.bitbucket.org/a-pp-zz/arr.git",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "CoolSwitcher",
+            "email": "ds@appzz.tech",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "files": ["src/Arr.php"]
+    }
+}
