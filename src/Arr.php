@@ -1,13 +1,28 @@
 <?php
+// Array helper
 namespace AppZz\Helpers;
-
 class Arr {
-	public static function get ( $array = array (), $key, $default = NULL )	{
+    /**
+     * Get value by key
+     * @param  array  $array
+     * @param  mixed $key
+     * @param  mixed $default
+     * @return mixed
+     */
+	public static function get ($array = array (), $key, $default = NULL)	{
 		$array = (array) $array;
 		return ( isset ( $array[$key] ) ? $array[$key] : $default );
 	}
 
-	public static function path ( $array = array (), $path, $sep = '.', $default = NULL ) {    
+    /**
+     * Get value by path
+     * @param  array  $array
+     * @param  string $path
+     * @param  string $sep separator
+     * @param  mixed $default
+     * @return mixed
+     */
+	public static function path ($array = array (), $path, $sep = '.', $default = NULL) {    
         if ( !$path )
             return $default;
         $array = (array) $array;  
