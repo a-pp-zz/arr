@@ -2,13 +2,13 @@
     "name": "appzz/arr",
     "description": "A safe way to get values from arrays",
     "type": "library",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "keywords": [
         "arr",
         "array"
     ],
     "homepage": "https://www.bitbucket.org/a-pp-zz/arr.git",
-    "license": "Apache-2.0",
+    "license": "MIT",
     "authors": [
         {
             "name": "CoolSwitcher",
@@ -20,6 +20,6 @@
         "php": ">=5.0.0"
     },
     "autoload": {
-        "files": ["src/Arr.php"]
+        "psr-4": {"AppZz\\Helpers": "src/"}
     }
 }

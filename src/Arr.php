@@ -9,7 +9,7 @@ class Arr {
      * @param  mixed $default
      * @return mixed
      */
-	public static function get ($array = array (), $key, $default = NULL)	{
+	public static function get ($array = array (), $key = '', $default = NULL)	{
 		$array = (array) $array;
 		return ( isset ( $array[$key] ) ? $array[$key] : $default );
 	}
