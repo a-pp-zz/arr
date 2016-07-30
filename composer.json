@@ -20,6 +20,6 @@
         "php": ">=5.0.0"
     },
     "autoload": {
-        "psr-4": {"AppZz\\Helpers": "src/"}
+        "psr-4": {"AppZz\\Helpers\\": "src/"}
     }
 }
