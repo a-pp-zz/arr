@@ -2,7 +2,7 @@
     "name": "appzz/arr",
     "description": "A safe way to get values from arrays",
     "type": "library",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "keywords": [
         "arr",
         "array"
@@ -12,12 +12,12 @@
     "authors": [
         {
             "name": "CoolSwitcher",
-            "email": "ds@appzz.tech",
+            "email": "ds@appzz.pw",
             "role": "lead"
         }
     ],
     "require": {
-        "php": ">=5.0.0"
+        "php": ">=5.3.0"
     },
     "autoload": {
         "psr-4": {"AppZz\\Helpers\\": "src/"}
