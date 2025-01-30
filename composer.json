@@ -2,7 +2,6 @@
     "name": "appzz/arr",
     "description": "A safe way to get values from arrays",
     "type": "library",
-    "version": "1.0.4",
     "keywords": [
         "arr",
         "array"
